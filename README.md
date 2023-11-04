@@ -43,10 +43,22 @@ THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 THEN I am able to view posts and comments but I am prompted to log in again before I can add, update, or delete posts
 
+
+# Installation
+ enter your sql root password in connection.js file 
+ and run the following commands
+
+   1. npm i
+   2. npm run seed
+   3. npm start(http://localhost:3009/)
+
+# screenshot:
+![screenshot1](assets/localhost_3009_dashboard_.png)
+![screenshot-2](assets/localhost_3009_dashboard.png)
+![screenshot-3](assets/localhost_3009_login.png)
+![screenshot-4](assets/localhost_3009_.png)
+
 # github link
 
 https://github.com/priyakumi/tech-blog-mvc
 
-# heroku link:
-
-https://quiet-woodland-71379-294d436dd786.herokuapp.com/
